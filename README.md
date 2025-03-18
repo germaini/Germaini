@@ -10,4 +10,12 @@ _personal_
 * 🎱
 * 📂
 android/src/main/java/com/dropbox/core/android/internal/DropboxAuthIntent.kt
-
+@@ -26,9 +26,9 @@ import android.content.Intent
+ import android.content.pm.PackageInfo
+ import android.content.pm.PackageManager
+ import android.net.Uri
+ import android.os.Build
+ import android.os.Parcel
+ import android.util.Base64
+ import com.dropbox.core.android.DropboxUidNotInitializedException
+ import com.dropbox.core.android.internal.DropboxAuthIntent
